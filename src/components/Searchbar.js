@@ -15,7 +15,7 @@ export function Searchbar() {
         <input className='search' autoFocus value={query} onChange={e => setQuery(e.target.value)} />
         <button>Search</button>
       </form>
-      {list &&
+      {/* {list &&
         (list.length === 0
           ? <p>No results</p>
           : (
@@ -38,7 +38,7 @@ export function Searchbar() {
             </ul>
           )
         )
-      }
+      } */}
     </div>
   );
 }

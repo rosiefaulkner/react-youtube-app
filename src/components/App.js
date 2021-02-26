@@ -40,7 +40,7 @@ export default class App extends React.Component {
         <Header />
         <Menu chooseVideo={this.chooseVideo} />
         <Video className="main" src={this.state.src} />
-        <VideoList />
+        <VideoList videos={this.state} />
         <Footer />
       </div>
       </>

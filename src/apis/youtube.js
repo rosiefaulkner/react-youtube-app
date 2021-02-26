@@ -1,5 +1,3 @@
-import React from 'react';
-
 export async function searchYouTube(q) {
     q = encodeURIComponent(q);
     const response = await fetch(
